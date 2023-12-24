@@ -63,7 +63,7 @@
 // console.log(a) 
 //  var a = (3 - (2 * 4))+ (1 *5)
 // //  var a = 10
-=======
+
 // Math operator
 
 

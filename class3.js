@@ -75,21 +75,21 @@ var resp ="Sir"
 // 10 "carry double jacket"
 // 5 "carry blanket"
 // 0 " don't go outside
-var temp = prompt("Enter your city temperature in range of 0 to 20" );
+var temp = +prompt("Enter your city temperature in range of 0 to 20" );
 console.log(temp)
-if("20">=temp &&  temp > "15" ){
+if(20>=temp &&  temp > 15 ){
  console.log( "Don't carry jacket")
 }
-else if("15"<= temp && "10"> temp ){
+else if( temp <= 15 && temp > 10 ){
     console.log( "carry single jaclet")
    }
-   else if("10"<= temp && "5" < temp ){
+   else if( temp <= 10 &&   temp >5 ){
     console.log( " carry double jaclet")
    }
-   else if(temp <= "5"){
+   else if( temp > 0 && temp <= 5 ){
     console.log( "carry blanket")
    }
-   else if("0" == temp){
+   else if(0 == temp){
     console.log("Dont go outside")
    }
    else {
