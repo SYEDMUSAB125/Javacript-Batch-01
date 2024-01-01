@@ -80,6 +80,7 @@ console.log(temp)
 if(20>=temp &&  temp > 15 ){
  console.log( "Don't carry jacket")
 }
+// 10 "4" "9"
 else if( temp <= 15 && temp > 10 ){
     console.log( "carry single jaclet")
    }
