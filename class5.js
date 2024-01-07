@@ -26,9 +26,9 @@
 // console.log("2 X 1 = 2");
 // console.log("2 X 1 = 2");
 // task 3 table print 
-for(var i=1; i<11 ; i++){
- console.log("2"+" X" +" " + i + " =" +" " + 2*i  );
-}
+// for(var i=1; i<11 ; i++){
+//  console.log("2"+" X" +" " + i + " =" +" " + 2*i  );
+// }
 
 
 
