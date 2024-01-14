@@ -36,11 +36,32 @@
 // var text = text.replace(/World War II/g,"the Second world war")
 // console.log(text)
 
-var text = "The New Yorker magazine doesn't allow the phrase 'World War II the'"
+// var text = "The New Yorker magazine doesn't allow the phrase 'World War II the'"
 // var num = text.length - 5
 // console.log(num)
 // var index = text.charAt(text.length - 5)
 // left to right indexof
 // right to left lastindexof
-var index = text.lastIndexOf("blue")
-console.log(index)
+// var index = text.lastIndexOf("blue")
+// console.log(index)
+
+// number method 
+// var num = Math.round(3.69)
+// 16digitplace 
+// var num = Math.random()  
+// var num = Math.ceil(4.2)
+// toString num converted in string 
+var num = Math.floor(4.9)
+// console.log(num)
+var num1  = num
+var c = 1+num1
+console.log(c)
+
+
+
+
+
+
+
+
+
