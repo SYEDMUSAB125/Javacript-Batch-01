@@ -51,11 +51,11 @@
 // var num = Math.random()  
 // var num = Math.ceil(4.2)
 // toString num converted in string 
-var num = Math.floor(4.9)
+// var num = Math.floor(4.9)
 // console.log(num)
-var num1  = num
-var c = 1+num1
-console.log(c)
+// var num1  = num
+// var c = 1+num1
+// console.log(c)
 
 
 
