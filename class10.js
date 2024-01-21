@@ -78,15 +78,18 @@
 
 
 var names = ["e","p","s","o","n"];
+var names1 = names.reverse();
+console.log(names1)
 
-for(i=4 ; i>=0; i--){
+// for(i=4 ; i>=0; i--){
 
-  var name1 = name1 + names[i]  
+//   var name1 = name1 + names[i]  
 
-}
-var real = name1.slice(9,14)
+// }
+// // slice(index, number)
+// var real = name1.slice(9,14)
 // console.log(real)
-document.write(real)
+
 
 
 
