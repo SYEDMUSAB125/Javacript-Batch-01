@@ -27,7 +27,17 @@
 // var date = new Date()
 // console.log(Date())
 // console.log(student1)
-
+// let arr = [1,2,3,4,5,6,7,8,9,10]
+// let arr1 = arr.map((item)=>{
+//     return item*2
+// })
+// write code for even number detection
+// write code for odd number detection
+function isOdd(num) {
+    return num % 2 !== 0;
+}
+let output = isOdd(3);
+console.log(output);    
 
 
 
