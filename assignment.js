@@ -28,15 +28,30 @@
 // Q2 
 // Date Manipulation:
 // Write a function that takes a date as input and returns the day of the week.
-function getDay(value){
-var result =  value.getDay()
-return result
+// function getDay(value){
+// var result =  value.getDay()
+// return result
+// }
+// var date = new Date();
+// var b = getDay(date)
+// if(b === 0){
+//     console.log("sunday")
+// }
+// else{
+//     console.log("check your code again")
+// }
+// Function and Loop:
+// Write a function that takes a number as input and checks whether it's a prime number or not. Use a for loop for this task.
+function checkNumber(value){
+    for(var i = 2; i < value; i++){
+        if(value % i === 0){   
+            return "not a prime number"
+        }
+        else{
+            return "prime number"
+        }
+    }
 }
-var date = new Date();
-var b = getDay(date)
-if(b === 0){
-    console.log("sunday")
-}
-else{
-    console.log("check your code again")
-}
+let num = checkNumber(7)
+console.log(num);
+

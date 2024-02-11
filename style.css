@@ -5,17 +5,18 @@
  
  }
  .main{
-    color: #fff;;
+    color: #000;;
     text-align: center;
     margin-top: 20%;
-    font-size: 80px;
-    background-color: blue;
+    font-size: 20px;
+    /* background-color: blue; */
  }
  .btn{
    /* margin-top: 50px;
     margin-left: 40%; */
     height: 45px;
-    margin: 50px 0 0 40%;
+    width: 100px;
+    margin: 100px 0 0 40%;
     padding: 5px;
     background-color: #3a3737;
     color: #ffefef;
